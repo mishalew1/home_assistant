@@ -8,6 +8,8 @@ This script does the following:
 - download the latest OVA VM disk which comes compressed in xz
 - decompress the disk using the xz command
 - create a VM in proxmox with the following:
+    - name: home_assistant
+    - ID: next available number
     - 2 CPU
     - 2GB RAM
     - OVMF Bios (UEFI)
